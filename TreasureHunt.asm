@@ -1792,10 +1792,10 @@ DrawHudValues PROC
 
     mHud 1, VAL_COL
     cmp  gameMode, MODE_TIMED
-    je   mode_timed
+    je   timed_label
     mPrint "CLASSIC"
     jmp  mode_shown
-mode_timed:
+timed_label:
     mColor lightRed
     mPrint "TIME CHALLENGE"
 mode_shown:
