@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.lst
+*.user
+*.tlog
+*.log
+
+# Files the game creates while running
+savegame.txt
+leaderboard.txt
+custom.txt
+
+# macOS
+.DS_Store

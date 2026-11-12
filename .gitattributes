@@ -1,0 +1,4 @@
+# Use Windows line endings for source and map files on checkout
+*.asm text eol=crlf
+*.txt text eol=crlf
+*.md  text eol=crlf
